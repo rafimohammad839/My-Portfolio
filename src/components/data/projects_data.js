@@ -3,6 +3,8 @@ import TODO from '../../assets/projects_images/TODO.png'
 import MAP from '../../assets/projects_images/MAP.png'
 import VUEAPP from '../../assets/projects_images/shopping-cart.png'
 import WORDLE from '../../assets/projects_images/WORDLE.png'
+import REACTWORDLE from '../../assets/projects_images/react-wordle.png'
+import CALCULATOR from '../../assets/projects_images/js-calculator.png'
 
 const data_projects = [
     {
@@ -17,6 +19,13 @@ const data_projects = [
         image: FACEAPP,
         deployed_url: 'https://codesandbox.io/s/jolly-shape-38ujsj',
         github_url: 'https://github.com/rafimohammad839/Face-Recognition-Brain',
+        category: ['react.js']
+    },
+    {
+        name: 'Wordle Clone',
+        image: REACTWORDLE,
+        deployed_url: 'https://bestwordlegame.netlify.app/',
+        github_url: 'https://github.com/rafimohammad839/React-Wordle',
         category: ['react.js']
     },
     {
@@ -38,6 +47,13 @@ const data_projects = [
         image: WORDLE,
         deployed_url: 'https://github.com/rafimohammad839/A-Mini-Shopping-App',
         github_url: 'https://github.com/rafimohammad839/A-Mini-Shopping-App',
+        category: ['javascript']
+    },
+    {
+        name: 'Calculator',
+        image: CALCULATOR,
+        deployed_url: 'https://codesandbox.io/s/fast-moon-r3h2ry',
+        github_url: 'https://github.com/rafimohammad839/Calculator',
         category: ['javascript']
     },
 ]
