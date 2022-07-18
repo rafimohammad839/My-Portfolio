@@ -1,3 +1,4 @@
+import SHOP from '../../assets/projects_images/shop-website.png'
 import FACEAPP from '../../assets/projects_images/faceapp.png'
 import TODO from '../../assets/projects_images/TODO.png'
 import MAP from '../../assets/projects_images/MAP.png'
@@ -7,6 +8,13 @@ import REACTWORDLE from '../../assets/projects_images/react-wordle.png'
 import CALCULATOR from '../../assets/projects_images/js-calculator.png'
 
 const data_projects = [
+    {
+        name: 'Clothing Store',
+        image: SHOP,
+        deployed_url: 'https://chimerical-kangaroo-a784c7.netlify.app/',
+        github_url: 'https://github.com/rafimohammad839/E-Commerce-Website',
+        category: [ 'react.js']
+    },
     {
         name: 'Distance Matrix Routing App',
         image: MAP,
